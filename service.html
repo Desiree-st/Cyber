@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nos services – OdysséeIT</title>
+
+<style>
+/* Variables de couleurs basées sur tes réalisations */
+:root {
+    --bg-mint: #bbf7d0;       /* Le vert menthe que tu as choisi */
+    --brand-green: #008000;   /* Le vert intense des boutons */
+    --dark-blue: #0f172a;     /* Le bleu profond du header */
+    --text-main: #1e293b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-mint); /* Application du fond vert menthe */
+    color: var(--text-main);
+}
+
+/* HEADER */
+header {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo { 
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+header .logo span { 
+    color: #4CAF50; 
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+header .btn-contact {
+    background-color: var(--brand-green);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 40px;
+    text-align: center;
+    /* On garde le dégradé sombre pour faire ressortir le texte blanc */
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* SERVICES SECTION */
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: var(--dark-blue);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* SERVICE CARD */
+.service-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Image à la taille de la card */
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Remplit l'espace sans déformer */
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.card-content {
+    padding: 25px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: var(--dark-blue);
+}
+
+.card-content p {
+    font-size: 15px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--dark-blue);
+    color: #94a3b8;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Odyssée<span>IT</span></div>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="réalisation.html">Réalisations</a>
+        <a href="contact.html" class="btn-contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Nos services numériques</h1>
+    <p>Des solutions performantes pour vos besoins technologiques.</p>
+</section>
+
+<section class="services">
+    <h2>Ce que nous proposons</h2>
+
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="images/web.jpg" alt="Développement web">
+            <div class="card-content">
+                <h3>Développement web</h3>
+                <p>Applications web modernes, performantes et sécurisées.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="images/télé.jpg" alt="Applications sur mesure">
+            <div class="card-content">
+                <h3>Applications sur mesure</h3>
+                <p>Solutions adaptées précisément aux besoins de votre activité.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="images/cloud.webp" alt="DevOps & Cloud">
+            <div class="card-content">
+                <h3>DevOps & Cloud</h3>
+                <p>Automatisation, déploiement et infrastructure scalable.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="images/sécu.jpg" alt="Sécurité applicative">
+            <div class="card-content">
+                <h3>Sécurité applicative</h3>
+                <p>Protection des données et sécurisation des applications.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="images/maintenance.jpg" alt="Maintenance & Support">
+            <div class="card-content">
+                <h3>Maintenance & support</h3>
+                <p>Suivi, mises à jour et assistance technique continue.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="images/accomp.jpeg" alt="Conseil & Accompagnement">
+            <div class="card-content">
+                <h3>Conseil & accompagnement</h3>
+                <p>Analyse stratégique et accompagnement de vos projets.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 OdysséeIT — Tous droits réservés.
+</footer>
+
+</body>
+</html>
