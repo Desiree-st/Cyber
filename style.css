@@ -140,9 +140,10 @@ body {
  
 footer{
     background-color: rgba(34,197,94,.3);
-    text-align: left;
+    text-align: center;
     line-height: 2em;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
+
 }
