@@ -1,296 +1,112 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="Untitled-1.css">
+<link rel="stylesheet" href="style.css">
 <title>OdysséeIT</title>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JKY2G8Z4QM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-JKY2G8Z4QM');
-</script>
-
-<!-- Défilement fluide -->
-<style>
-html {
-    scroll-behavior: smooth;
-}
-</style>
-
 </head>
 <body>
-
 <header class="navbar">
-  <div id="logo">
-      Odyssée<span id="green-logo">IT</span>
-  </div>
-  <nav>
-      <a href="service.html">Services</a>
-      <a href="réalistaion.html">Réalisations</a>
-      <a href="#team">Équipe</a>
-      <span class="button">Contact</span>
-  </nav>
+<div id="logo">
+            Odyssée<span id="green-logo">IT</span>
+</div>
+<div>
+<a href="service.html">Services</a>
+<a href="réalisation.html">Réalisations</a>
+<a href="#team-section">Équipe</a>
+<a href="Contact.php" class="btn-contact">Contact</a>
+</div>
 </header>
-
+<body>
 <main>
-  <section class="hero" id="hero">
-    <div class="hero-content">
-      <h1>Nous concevons des apps web modernes</h1>
-      <p>
-        Du prototype au déploiement, notre équipe vous accompagne 
-        pour créer des expériences rapides, accessibles et élégantes.
-      </p>
-      <button class="button">Nous contacter</button>
-      <a href="#">Voir nos projets</a>
-    </div>
-    <div class="hero-img">
-      <img src="fallback-hero.svg" alt="Image de la section hero">
-    </div>
-  </section>
-
-  <!-- Section Équipe avec id="team" -->
-  <section id="team" class="team-presentation">
-    <h1>Notre équipe</h1>
-    <p>
-      Une équipe pluridisciplinaire pour couvrir design, back and ops.
-    </p>
-    <div class="team">
-      <div class="team-card">
-        <img src="Amaury.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Amaury</h2>
-        <h3>Project Manager</h3>
-        <p>Architecture, SCRUM</p>
-        <a href="https://teams.microsoft.com/l/message/19:a95eb145754a4551b4022d37644e8af3@thread.v2/1766055928166?context=%7B%22contextType%22%3A%22chat%22%7D">GitHub</a>
-        
-      </div>
-
-      <div class="team-card">
-        <img src="Odis.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Odis Adjaho</h2>
-        <h3>Lead Developer</h3>
-        <p>Architecture, revues de code, performance.</p>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-
-      <div class="team-card">
-        <img src="Odis.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Mawelanda REDA</h2>
-        <h3>Front Engineer</h3>
-        <p>UI accessible, animations, design systems</p>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-
-      <div class="team-card">
-        <img src="Atilio.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Atilio Boton</h2>
-        <h3>Backend Engineer</h3>
-        <p>APIs, bases de données, sécurité applicative.</p>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-
-      <div class="team-card">
-        <img src="Amaury.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Mouhammed Zahaf</h2>
-        <h3>Backend Engineer</h3>
-        <p>APIs, bases de données, sécurité applicative.</p>    
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-
-      <div class="team-card">
-        <img src="Désiré.png" alt="image d'un avatar" width="350" height="400">
-        <h2>Désirée Oulai</h2>
-        <h3>DevOps</h3>
-        <p>CI/CD, conteneurs, observabilité.</p>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
+<section class="hero">
+<div class="hero-content">
+<h1>Nous concevons des apps web modernes</h1>
+<p>
+                        Du prototype au déploiement, notre équipe vous accompagne 
+                        pour créer des expériences rapîdes, accessibles et élégantes.
+</p>
+<button class="button">Nous contacter</button>
+<a href="#">Voir nos projets</a>
+</div>
+<div class="hero-img">
+<img src="fallback-hero.svg" alt="Image de la section hero">
+</div>
+</section>
+<section class="team-presentation" id="team-section">
+<h1>Notre équipe</h1>
+<p>
+                    Une équipe pluridisciplinaire pour couvrir design, back and ops.
+</p>
+<div class="team">
+<div class="team-card">
+<img src="Amaury.png" alt="image d'un avatar" width="350" height="400">
+<h2>Amaury</h2>
+<h2>Project Manager</h2>
+<p>
+                            Architecture, SCRUM
+</p>
+<a href="https://github.com/Parabol-AM">GitHub</a>
+<a href="https://www.linkedin.com/in/amaury-mar/">LinkedIn</a>
+</div>
+<div class="team-card">
+<img src="Odis.png" alt="image d'un avatar" width="350" height="400">
+<h2>Odis Adjaho</h2>
+<h2>Lead Developer</h2>
+<p>
+                            Architecture, revues de code, performance.
+</p>
+<a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+</div>
+<div class="team-card">
+<img src="Odis.png" alt="image d'un avatar" width="350" height="400">
+<h2>Mawelanda REDA</h2>
+<h2>Front Engineer</h2>
+<p>
+                            UI accessible, animations, design systems
+</p>
+<a href="https://github.com/mawelanda">GitHub</a>
+<a href="https://www.linkedin.com/in/fulbert-reda-870720276">LinkedIn</a>
+</div>
+<div class="team-card">
+<img src="Atilio.png" alt="image d'un avatar" width="350" height="400">
+<h2>Atilio Boton</h2>
+<h2>Backend Engineer</h2>
+<p>
+                            APIs, bases de données, sécurité applicative.
+</p>
+<a href="https://github.com/Atilio-git">GitHub</a>
+<a href="https://www.linkedin.com/in/atilio-boton-79b894395">LinkedIn</a>
+</div>
+<div class="team-card">
+<img src="Amaury.png" alt="image d'un avatar" width="350" height="400">
+<h2>Mouhammed Zahaf</h2>
+<h2>Backend Engineer</h2>
+<p>
+                            APIs, bases de données, sécurité applicative.
+</p>    
+<a href="https://github.com/Zahaf1/Zahaf.github.io">GitHub</a>
+<a href="https://www.linkedin.com/in/mouhammed-zahaf-4778203a9/
+ ">LinkedIn</a>
+</div>
+<div class="team-card">
+<img src="Désiré.png" alt="image d'un avatar" width="350" height="400">
+<h2>Désirée Oulai</h2>
+<h2>DevOps</h2>
+<p>
+                            CI/CD, conteneurs, observabilité.
+</p>
+<a href="https://github.com/Desiree-st/">GitHub</a>
+<a href="https://www.linkedin.com/in/kehasse-ange-oulai-1831483ab/">LinkedIn</a>
+</div>
+</div>
+</section>
 </main>
-
-
-
-
-
-
-            <style>
-                        body {
-    margin: 0;
-}
- 
-.navbar {
-    height: 68px;
-    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
-    font-size: 1em;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #1c2742;
-    padding-left: 250px;
-    padding-right: 250px;
-}
- 
-#logo{
-    font-size: 1.3em;
-    font-weight: 800;
-}
- 
-#green-logo {
-    color: green;
-}
- 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 17px;
-}
- 
-.navbar a:hover{
-    color: green;
-    text-decoration: underline;
-}
- 
-.button{
-    text-align: center;
-    color: black;
-    font-size: 1em;
-    font-weight: 700;
-    background-color: green;
-    padding: 0.6em 1em;
-    border-radius: 0.6em;
-}
- 
-.button:hover {
-    color: green;
-    background-color: black;
-}
- 
-.hero {
-    height: 25%;
-    background-color: rgba(34,197,94,.3);
-    padding: 70px;
-    display: flex;
-    justify-content: center;
-}
- 
-.hero-content {
-    max-width: 35%;
-    color: #1c2742;
-    padding-right: 100px;
-}
- 
-.hero-content h1 {
-    font-size:clamp(2rem,3.5vw,3rem);line-height:1.2;margin:0;
-}
- 
-.hero-content p {
-    width: 90%;
-    font-size: 1.3em;
-    margin-bottom: 50px;
-}
- 
-.hero-img {
-    max-width: 39%;
-    border-radius:1rem;
-    border:1px solid #1c2742;
-}
- 
-.hero img {
-    height: 100%;
-    width: 100%;
-    border-radius:1rem;
-}
- 
-.hero-content button{
-    margin-right: 20px;
-}
- 
-.hero-content a{
-    color: #1c2742;
-    text-decoration: none;
-}
- 
-.hero-content a:hover {
-    color: green;
-    text-decoration: underline;
-}
- 
-.team-presentation{
-    color: white;
-    background-color: #1c2742;
-    text-align: center;
-    padding: 80px 180px 80px 180px;
-}
- 
-.team-presentation h1{
-    font-size:clamp(2rem,3.5vw,3rem);line-height:1.2;margin:0;   
-}
- 
-.team-presentation p{
-    font-size: 1.3em;
-    margin-bottom: 50px; 
-}
- 
-.team{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 25px;
-}
- 
-.team-card {
-    color: white;
-    background-color: rgba(34,197,94,.3);
-    height: auto;
-    width: 400px;
-    padding: 15px;
-    padding-top: 30px;
-    border-radius: 5%;
-}
- 
-.team-card a {
-    color: white;
-    text-decoration: none;
-}
- 
-footer{
-    background-color: rgba(34,197,94,.3);
-    text-align: left;
-    line-height: 2em;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-}
-            </style>
 <footer>
-            2025 OdysséeIT __Tous droits réservé.<br>
-            Images distantes: Unsplash (fallback local inclus)
+    © 2025 OdysséeIT — Tous droits réservés
 </footer>
-
+</body>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
